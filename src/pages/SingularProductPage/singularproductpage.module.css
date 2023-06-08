@@ -1,0 +1,525 @@
+.productContainer {
+    grid-column:1;
+    grid-row:1;
+    width:100vw;
+    display:grid;
+    height:90vh;
+    justify-content:center;
+    align-items:center;
+    grid-template-rows:5% 10% 65% 10% 5%;
+
+}
+
+.productImage {
+    grid-row:3;
+    grid-column:1;
+    width:25vw;
+    justify-self:center;
+}
+p, h1, h4 {
+    color:white;
+    justify-self:center;
+}
+
+.productTitle {
+    margin:0;
+    justify-self:center;
+    height:9vh;
+    font-size:4vw;
+}
+.backgroundSelection {
+    display:grid; 
+    grid-template-columns:repeat(4, 25%);
+    height:12vh;
+    align-items:center;
+}
+
+.artistSection {
+    display:grid;
+    justify-self:center;
+    width:70vw;
+    grid-template-columns:repeat(2,50%);
+    grid-gap:4px;
+    margin-right:6vw;
+    align-self:end;
+}
+
+.by{
+    justify-self:end;
+    margin:0;
+    font-size:1.5vw;
+
+
+}
+.artist {
+    justify-self:start;
+    color:#FFA35D;
+    margin:0;
+    font-size:1.5vw;
+}
+
+.buyContainer {
+    display:grid;
+    width:60vw;
+    justify-self:center;
+    justify-content:center;
+    justify-items:center;
+    grid-template-columns:repeat(5, 25%);
+    background-color:#0F1D2FE5;
+}
+
+.addToBag {
+    width:60%;
+    color:white;
+    height:100%;
+    grid-row:1 / span 2;
+    align-self:center;
+    grid-column:5;
+    background-color:#FF764A;
+    border-radius:20px;
+    padding: 0;
+    border: none;
+}
+
+.contentCointainer {
+    overflow:hidden;
+    display:grid;
+    grid-template-columns:100%;
+    grid-template-rows:100%;
+    overflow:hidden;
+    align-items:center;
+}
+
+.productDescriptionContainer {
+    display:grid;
+    grid-template-columns:25% 50% 25%;
+    grid-template-rows:33% 10% 29% 7% 10%;
+    grid-column:1;
+    grid-row:1;
+    width:100vw;
+    height:90vh;
+    background-color:#0F1D2F;
+    margin-left:100%;
+    align-items:center;
+}
+
+.navButtons {
+    height:20vh;
+    width:80vw;
+    align-self:center;
+    justify-self:center;
+    justify-content:center;
+    display:grid;
+    grid-column:1;
+    grid-row:1;
+    grid-template-rows:20%;
+    grid-template-columns:repeat(2, 40%);
+    z-index:5;
+}
+
+.btnLeft {
+    justify-self:start;
+    height:100%;
+    width:8%;
+    background-color:#FFA35D;
+    border-radius:10px;
+}
+
+.btnRight {
+    justify-self:end;
+    height:100%;
+    width:8%;
+    background-color:#FFA35D;
+    border-radius:10px;
+}
+
+.charityTitle {
+    grid-column:2;
+    justify-self:start;
+    font-size:5vw;
+    align-self:end;
+}
+
+.charityUndertitle {
+    grid-column:2;
+    font-size:1.5vw;
+}
+
+.charitySelectionContainer {
+    grid-column:2;
+    display:grid;
+    height:20vh;
+    grid-gap:20px;
+    grid-template-rows:repeat(2, 50%);
+    align-self:center;
+}
+
+.unicefSelection,.wwfSelection   {
+    width:51vw;
+    height:10vh;
+    border:1px solid #FFA35D;
+    border-radius:6px;
+    display:grid;
+    grid-template-columns:repeat(3, 33%);
+    justify-items:center;
+}
+
+
+
+.donationText {
+    grid-column:2;
+    justify-self:start;
+}
+
+.unicefLogo{
+    width:50%;
+    align-self:center;
+}
+
+.wwfLogo {
+    width:40%;
+    align-self:center;
+}
+
+.radioButtons {
+    grid-column:3;
+}
+
+.proceedBtns {
+    display:grid;
+    grid-template-columns:40% 60%;
+    grid-gap:30px;
+    grid-column:2;
+    height:100%;
+    grid-row:5;
+}
+
+.proceedBtn {
+    color:white;
+    background-color:#FF764A;
+    border-radius:400px;
+    padding: 0;
+    border: none;
+}
+
+.continueBtn {
+    color:white;
+    border:1px solid #6881A1;
+    background-color: #0F1D2F;
+    border-radius:400px;
+    padding: 0;
+    text-Decoration: none;
+}
+
+.wallContainer {
+    display:grid;
+    grid-template-columns:100%;
+    grid-template-rows:100%;
+    grid-column:1;
+    height:80%;
+    grid-row:3;
+    width:150%;
+    justify-self:center;
+    overflow: hidden;
+    align-items:center;
+}
+
+.brickwall {
+    grid-column:1;
+    grid-row:1;
+    justify-self:center;
+    width:80%;
+    height:110%;
+    z-index:-1;
+    margin:0;
+    margin-left:-180%;
+}
+
+.drywall {
+    justify-self:center;
+    align-self:center;
+    width:80%;
+    height:110%;
+    grid-column:1;
+    grid-row:1;
+    z-index:-1;
+    margin:0;
+    margin-left:180%;
+    
+}
+
+.backBtn {
+    width:5vw; 
+    height:13%;
+    grid-column:1;
+    grid-row:1;
+    align-self:start;
+    margin-left:20%;
+    border-radius:24px;
+    border:1px solid #6881A1;
+    display:grid;
+    align-items:center;
+    font-size:1vw;
+}
+
+.standardBtn {
+    color:#FFA35D;
+}
+
+
+@media (max-width: 800px) {
+   
+
+    .buyContainer {
+        display:grid;
+        width:70vw;
+        justify-self:center;
+        justify-content:center;
+        justify-items:center;
+        grid-template-columns:repeat(5, 25%);
+        
+    }
+
+    .buyContainer p{
+        display:grid;
+        font-size:3vw;
+        justify-self:center;
+    }
+
+    .buyContainer h4{
+        display:grid;
+        font-size:3vw;
+        justify-self:center;
+    }
+
+    .buyContainer div{
+        display:grid;
+        justify-self:center;
+    }
+
+    .addToBag {
+        width:20vw;
+        border-radius:14px;
+        font-family:Gilroy-Regular;
+    }
+
+    .charityTitle {
+        grid-column:2;
+        justify-self:start;
+        font-size:10vw;
+        align-self:end;
+        height:10vh;
+    }
+    
+    .charityUndertitle {
+        grid-column:2;
+        font-size:3vw;
+    }
+    
+    .charitySelectionContainer {
+        grid-column:2;
+        width:100vw;
+        display:grid;
+        height:20vh;
+        grid-gap:20px;
+        grid-template-rows:repeat(2, 50%);
+        align-self:center;
+    }
+    
+    .unicefSelection,.wwfSelection   {
+        width:80vw;
+        height:10vh;
+        border:1px solid #FFA35D;
+        border-radius:6px;
+        display:grid;
+        grid-template-columns:repeat(3, 33%);
+        justify-items:center;
+    }
+
+    .productDescriptionContainer {
+        display:grid;
+        grid-template-columns:10% 80% 10%;
+        grid-template-rows:20% 15% 30% 7% 10%;
+        grid-column:1;
+        grid-row:1;
+        width:100vw;
+        height:90vh;
+        background-color:#0F1D2F;
+        margin-left:100%;
+        align-items:center;
+    }
+    
+    
+    
+    .donationText {
+        grid-column:2;
+        justify-self:start;
+    }
+    
+    .unicefLogo{
+        width:50%;
+        align-self:center;
+    }
+    
+    .wwfLogo {
+        width:40%;
+        align-self:center;
+    }
+    
+    .radioButtons {
+        grid-column:3;
+    }
+    
+    .proceedBtns {
+        display:grid;
+        width:80vw;
+        grid-template-rows:repeat(2, 50%);
+        grid-gap:45px;
+        grid-row:5;
+        height:100%;
+    }
+    
+    .proceedBtn {
+        color:white;
+        background-color:#FF764A;
+        border-radius:15px;
+        padding: 0;
+        border: none;
+        width:80vw;
+        height:7vh;
+        grid-row:1;
+        
+    }
+    
+    .continueBtn {
+        color:white;
+        border:1px solid #6881A1;
+        background-color: #0F1D2F;
+        border-radius:15px;
+        padding: 0;
+        text-Decoration: none;
+        width:80vw;
+        height:7vh;
+        grid-row:2;
+    }
+
+    .backBtn {
+        width:20vw; 
+        height:5vh;
+        grid-column:1;
+        grid-row:1;
+        align-self:start;
+        margin-left:20%;
+        border-radius:30px;
+        border:1px solid #6881A1;
+        display:grid;
+        align-items:center;
+        font-size:5vw;
+    }
+
+    .productImage {
+        grid-row:3;
+        grid-column:1;
+        width:70vw;
+        justify-self:center;
+    }
+
+    .productTitle {
+        margin:0;
+        justify-self:center;
+        height:9vh;
+        font-size:16vw;
+    }
+    .backgroundSelection {
+        display:grid; 
+        grid-template-columns:repeat(4, 25%);
+        height:12vh;
+        align-items:center;
+    }
+    
+    .artistSection {
+        display:grid;
+        justify-self:center;
+        width:70vw;
+        grid-template-columns:repeat(2,50%);
+        grid-gap:4px;
+        margin-right:26vw;
+        align-self:end;
+    }
+    
+    .by{
+        justify-self:end;
+        margin:0;
+        font-size:5vw;
+    
+    
+    }
+    .artist {
+        justify-self:start;
+        color:#FFA35D;
+        margin:0;
+        font-size:5vw;
+    }
+}
+
+@media (min-width:800px) and (max-width: 1350px) {
+    
+
+    .productDescriptionContainer {
+        display:grid;
+        grid-template-columns:10% 80% 10%;
+        grid-template-rows:20% 15% 30% 7% 10%;
+        grid-column:1;
+        grid-row:1;
+        width:100vw;
+        height:90vh;
+        background-color:#0F1D2F;
+        margin-left:100%;
+        align-items:center;
+    }
+
+    .productImage {
+        grid-row:3;
+        grid-column:1;
+        width:40vw;
+        justify-self:center;
+    }
+
+    .productTitle {
+        margin:0;
+        justify-self:center;
+        height:9vh;
+        font-size:6vw;
+    }
+    .backgroundSelection {
+        display:grid; 
+        grid-template-columns:repeat(4, 25%);
+        height:12vh;
+        align-items:center;
+    }
+    
+    .artistSection {
+        display:grid;
+        justify-self:center;
+        width:70vw;
+        grid-template-columns:repeat(2,50%);
+        grid-gap:4px;
+        margin-right:10vw;
+        align-self:end;
+    }
+    
+    .by{
+        justify-self:end;
+        margin:0;
+        font-size:2vw;
+    
+    
+    }
+    .artist {
+        justify-self:start;
+        color:#FFA35D;
+        margin:0;
+        font-size:2vw;
+    }
+    
+}

@@ -1,0 +1,36 @@
+@font-face {
+    font-family:Gilroy-ExtraBold;
+    src: url(../../resources/font/Gilroy-ExtraBold.woff);
+}
+
+.product {
+    background-color:#0D1E41;
+    height:70vh;
+    display:grid;
+    height:45vh;
+    grid-template-rows:70% 40%;
+    width:400px;
+    border-radius:20px;
+    justify-content:center;
+    align-items:center;
+}
+.product img { 
+    width:350px;
+    margin-top:8vh;
+}
+
+
+h2 {
+    color:white;
+    font-family:Gilroy-ExtraBold;
+    align-self:end;
+}
+
+.addToBtn {
+    height:50%;
+    color:white;
+    background-color:#FF764A;
+    border-radius:5px;
+    padding: 0;
+    border: none;
+}

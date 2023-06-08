@@ -1,0 +1,149 @@
+@font-face {
+    font-family:Gilroy-ExtraBold;
+    src: url(../../resources/font/Gilroy-ExtraBold.woff);
+}
+
+@font-face {
+    font-family:Montebello;
+    src: url(../../resources/font/Montebello-Script.woff);
+}
+
+.navbarcontainer {
+    grid-template-columns:20% 20% 20% 20% 20%;
+    display:grid;
+    height:9vh;
+    width:100vw;
+}
+
+.logo{
+    font-family:Montebello;
+    font-size:1vw;
+    align-self:center;
+    display:grid;
+}
+
+.navbarcontainer ul {
+    display:grid;
+    width:90vw;
+    height:4vh;
+    grid-template-columns:repeat(4, 25%); 
+    grid-template-rows:100%; 
+    background-color:#1F3147;
+    list-style-type:none;
+    justify-self:center;
+    align-self:center;
+    justify-items:start;
+    align-items:center;
+    border-radius:5px;
+}
+Link {
+    font-size:2vw;
+}
+.bagImg {
+    width:1vw;
+    justify-self:center;
+}
+
+.selectionText {
+    font-size:1vw;
+}
+.navbarcontent {
+    display:grid;
+    grid-template-columns:50% 50%;
+    width:10vw;
+    justify-self:center;
+}
+
+.cartLink {
+    grid-column:5;
+    display:grid;
+    align-items:center;
+    grid-template-columns:25% 27% 15% 9%;
+    grid-template-rows:100%;
+    justify-items:end;
+}
+
+@media screen and (min-width: 1000px) {
+    .navbarcontainer ul {
+        justify-self:end;
+        width:40vw;
+    }
+}
+.navbarcontainer a {
+    font-family:Gilroy-Regular;
+    text-decoration:none;
+    color:White;
+    align-self:center;
+}
+
+
+@media (max-width: 800px) {
+    .logo{
+        font-family:Montebello;
+        font-size:5vw;
+        align-self:center;
+        display:grid;
+    }
+    .navbarcontainer {
+        grid-template-columns:40% 10% 40%;
+        display:grid;
+        height:9vh;
+        width:100vw;
+    }
+
+    .cartLink {
+        width:40vw;
+        grid-column:3;
+        display:grid;
+        align-items:center;
+        grid-template-columns:40% 40% 18% 20%;
+        grid-template-rows:100%;
+        justify-items:end;
+    }
+
+    .selectionText {
+        font-size:3vw;
+    }
+
+    .bagImg {
+        align-self:center;
+        width:3vw;
+        justify-self:center;
+    }
+}
+
+@media (min-width:800px) and (max-width: 1350px) {
+
+   .logo{
+    font-family:Montebello;
+    font-size:3vw;
+    align-self:center;
+    display:grid;
+}
+.navbarcontainer {
+    grid-template-columns:40% 10% 40%;
+    display:grid;
+    height:9vh;
+    width:100vw;
+}
+
+.cartLink {
+    width:40vw;
+    grid-column:3;
+    display:grid;
+    align-items:center;
+    grid-template-columns:40% 30% 18% 10%;
+    grid-template-rows:100%;
+    justify-items:end;
+}
+
+.selectionText {
+    font-size:2vw;
+}
+.bagImg {
+    width:2vw;
+    justify-self:center;
+}
+
+    
+}
