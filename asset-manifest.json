@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/Haavins/static/css/main.f6716f1c.css",
-    "main.js": "/Haavins/static/js/main.66ff3e5f.js",
-    "static/js/787.bfe4eb0f.chunk.js": "/Haavins/static/js/787.bfe4eb0f.chunk.js",
-    "static/media/test-6-500x500.png": "/Haavins/static/media/test-6-500x500.8f6c6d578be78ad3b052.png",
-    "static/media/haavins123.png": "/Haavins/static/media/haavins123.82f8f8099ca2e1c69626.png",
-    "static/media/test-2-500x500.png": "/Haavins/static/media/test-2-500x500.a8413b4566504c44fa2a.png",
-    "static/media/test-3-500x500.png": "/Haavins/static/media/test-3-500x500.ff6656a375296dd165ac.png",
-    "static/media/test-1-500x500.png": "/Haavins/static/media/test-1-500x500.e5324c2bb1f437cdb321.png",
-    "static/media/test-4-500x500.png": "/Haavins/static/media/test-4-500x500.11bf20f184f8f2932f9f.png",
-    "static/media/plasterwall.jpg": "/Haavins/static/media/plasterwall.159816a83b084e4554c8.jpg",
-    "static/media/test-5-500x500.png": "/Haavins/static/media/test-5-500x500.06b7c63ca19d48d6abac.png",
-    "static/media/brickwall.jpg": "/Haavins/static/media/brickwall.78fd041943f4fc4d2f1c.jpg",
-    "static/media/Gilroy-Regular.woff": "/Haavins/static/media/Gilroy-Regular.3e35d3696caedbf210dc.woff",
-    "static/media/Gilroy-ExtraBold.woff": "/Haavins/static/media/Gilroy-ExtraBold.02c264e4179f8627509e.woff",
-    "static/media/Montebello-Script.woff": "/Haavins/static/media/Montebello-Script.4f0a72ff7dfc536d7f6b.woff",
-    "index.html": "/Haavins/index.html",
-    "main.f6716f1c.css.map": "/Haavins/static/css/main.f6716f1c.css.map",
-    "main.66ff3e5f.js.map": "/Haavins/static/js/main.66ff3e5f.js.map",
-    "787.bfe4eb0f.chunk.js.map": "/Haavins/static/js/787.bfe4eb0f.chunk.js.map"
+    "main.css": "/Haavinsshop/static/css/main.a3660a2b.css",
+    "main.js": "/Haavinsshop/static/js/main.415db20b.js",
+    "static/js/787.bfe4eb0f.chunk.js": "/Haavinsshop/static/js/787.bfe4eb0f.chunk.js",
+    "static/media/test-6-500x500.png": "/Haavinsshop/static/media/test-6-500x500.8f6c6d578be78ad3b052.png",
+    "static/media/haavins123.png": "/Haavinsshop/static/media/haavins123.82f8f8099ca2e1c69626.png",
+    "static/media/test-2-500x500.png": "/Haavinsshop/static/media/test-2-500x500.a8413b4566504c44fa2a.png",
+    "static/media/test-3-500x500.png": "/Haavinsshop/static/media/test-3-500x500.ff6656a375296dd165ac.png",
+    "static/media/test-1-500x500.png": "/Haavinsshop/static/media/test-1-500x500.e5324c2bb1f437cdb321.png",
+    "static/media/test-4-500x500.png": "/Haavinsshop/static/media/test-4-500x500.11bf20f184f8f2932f9f.png",
+    "static/media/plasterwall.jpg": "/Haavinsshop/static/media/plasterwall.159816a83b084e4554c8.jpg",
+    "static/media/test-5-500x500.png": "/Haavinsshop/static/media/test-5-500x500.06b7c63ca19d48d6abac.png",
+    "static/media/brickwall.jpg": "/Haavinsshop/static/media/brickwall.78fd041943f4fc4d2f1c.jpg",
+    "static/media/Gilroy-Regular.woff": "/Haavinsshop/static/media/Gilroy-Regular.3e35d3696caedbf210dc.woff",
+    "static/media/Gilroy-ExtraBold.woff": "/Haavinsshop/static/media/Gilroy-ExtraBold.02c264e4179f8627509e.woff",
+    "static/media/Montebello-Script.woff": "/Haavinsshop/static/media/Montebello-Script.4f0a72ff7dfc536d7f6b.woff",
+    "index.html": "/Haavinsshop/index.html",
+    "main.a3660a2b.css.map": "/Haavinsshop/static/css/main.a3660a2b.css.map",
+    "main.415db20b.js.map": "/Haavinsshop/static/js/main.415db20b.js.map",
+    "787.bfe4eb0f.chunk.js.map": "/Haavinsshop/static/js/787.bfe4eb0f.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6716f1c.css",
-    "static/js/main.66ff3e5f.js"
+    "static/css/main.a3660a2b.css",
+    "static/js/main.415db20b.js"
   ]
 }
