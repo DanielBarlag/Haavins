@@ -4,18 +4,24 @@
 }
 
 .product {
-    background-color:#0D1E41;
     height:70vh;
     display:grid;
-    height:45vh;
+    height:500px;
     grid-template-rows:70% 40%;
-    width:400px;
+    width:500px;
     border-radius:20px;
     justify-content:center;
     align-items:center;
 }
+
+.productContainer {
+    width:500px;
+}
+
+
 .product img { 
-    width:350px;
+    height:30vh;
+    width:auto;
     margin-top:8vh;
 }
 

@@ -1,18 +1,29 @@
-import React, {createContext, useState} from "react";
+import React, {createContext, useState, useEffect} from "react";
 import { PRODUCTS} from "../products"
-
 
 export const ShopContext = createContext(null);
 
 const getDefaultCart = () => {
-    let cart = []
-    for (let i = 1; i < PRODUCTS.length +1; i++) {
-        cart[i] = 0;
+    // Check if there's a saved cart in localStorage first
+    const savedCart = localStorage.getItem('cart');
+    if (savedCart) {
+        return JSON.parse(savedCart);
+    }
+
+    let cart = {};
+    for (let product of PRODUCTS) {
+        cart[product.id] = 0;
     }
     return cart; 
 } 
+
 export const ShopContextProvider = (props) => {
     const [cartItems, setCartItems] = useState(getDefaultCart());
+
+    useEffect(() => {
+        // Whenever cartItems changes, save it to localStorage
+        localStorage.setItem('cart', JSON.stringify(cartItems));
+    }, [cartItems]);
 
     const getTotalCartAmount = () => {
         let totalAmount = 0;
@@ -32,7 +43,7 @@ export const ShopContextProvider = (props) => {
     };
 
     const removeFromCart = (itemId) => {
-        setCartItems((prev) => ({...prev, [itemId]: prev[itemId] - 1}));
+        setCartItems((prev) => ({...prev, [itemId]: prev[itemId] > 0 ? prev[itemId] - 1 : 0}));
     };
 
     const updateCartItemCount = (newAmount, itemId) => {
@@ -50,9 +61,9 @@ export const ShopContextProvider = (props) => {
           .filter((item) => item.quantity > 0);
       };
 
-    const getProductById = (itemId) => {
+      const getProductById = (itemId) => {
         return PRODUCTS.find((product) => product.id === itemId) || {}; 
-      };  
+    };  
 
     
 

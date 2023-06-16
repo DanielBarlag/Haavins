@@ -21,7 +21,7 @@
     height:30vh;
     display:grid;
     justify-self:center;
-    grid-template-columns:40% 30% 20%;
+    grid-template-columns:40% 30% 30%;
     grid-template-rows:100%;
 }
 
@@ -45,13 +45,30 @@
     font-family:Gilroy-Regular;
     font-size:1.2vw;
     align-self:center;
-    width:30vw;
+    width:23vw;
 }
 
-.charityBtn{
+.charityBtn, .artBtn{
+    height:100%;
+}
+
+
+
+.artLink {
+    height:33%;
+    grid-column:1;
+    grid-row:1;
+    align-self:end;
+    width:23vw;
+}
+
+.charityLink {
+    height:33%;
     grid-column:3;
     grid-row:1;
+    align-self:end;
     margin-left:-600%;
+    width:23vw;
 }
 
 
@@ -102,6 +119,24 @@ h1 {
 
 
 @media (max-width: 800px) {
+
+    
+    .artLink {
+        grid-column:1;
+        grid-row:2;
+        width:70%;
+        height:40%;
+        justify-self:start;
+    }
+
+    .charityLink {
+        grid-column:1;
+        grid-row:2;
+        width:70%;
+        height:40%;
+        justify-self:start;
+    }
+
     .homeContainer {
         width:100vw;
         height:90vh;
@@ -144,6 +179,7 @@ h1 {
         height:40%;
         justify-self:start;
     }
+
     
     
     

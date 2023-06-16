@@ -1,0 +1,86 @@
+.contentContainer {
+    width:100vw;
+    height:90vh;
+    display:grid;
+    grid-template-columns:15% 70% 15%;
+}
+
+.charityContainer {
+    justify-self:center;
+    display:grid;
+    grid-column:2;
+    width:55vw;
+    height:90vh;
+    grid-template-rows:23% 15% 18% 20% 20%;
+}
+
+.headerText {
+    font-size:4vw;
+    align-self:end;
+}
+
+.charityText {
+    color:white;
+    font-size:1vw;
+    width:30vw;
+    align-self:center;
+}
+
+.unicefSelection {
+    border-style:solid; 
+    border-color:orange;
+    border-radius:30px;
+    height:12vh;
+    display:grid;
+    grid-template-columns:50% 50%;
+}
+
+.unicefImage {
+    align-self:center;
+    margin-left:3vw;
+}
+
+.wwfImage {
+    align-self:center;
+    margin-left:3vw;
+}
+
+.wwfSelection {
+    border-style:solid;
+    border-color:orange;
+    border-radius:30px;
+    height:12vh;
+    grid-template-columns:50% 50%;
+    display:grid;
+}
+
+.btnSelectionContainer{
+    display:grid;
+    grid-template-columns:40% 60%;
+}
+
+.checkoutBtn {
+    width:33vw;
+    color:black;
+    height:10vh;
+    align-self:center;
+    justify-self:center;
+    grid-column:2;
+    background-color:#0BC6E3;
+    border-radius:50px;
+    padding: 0;
+    border: none;
+    font-family: gilroy-regular;
+}
+
+.continueBtn {
+    background-color:#0BC6E3;
+    width:20vw;
+    height:10vh;
+    border-radius:50px;
+    padding: 0;
+    border: none;
+    align-self:center;
+    font-family: gilroy-regular;
+
+}

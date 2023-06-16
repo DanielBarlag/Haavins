@@ -10,6 +10,7 @@ import { alpha, styled } from '@mui/material/styles';
 import axios from "axios";
 import { useContext} from 'react';
 import { ShopContext } from "../../context/shop-context";
+import { useLocation } from 'react-router-dom';
 
  const CssTextField = styled(TextField)({
         '& label.Mui-focused': {
@@ -33,7 +34,8 @@ import { ShopContext } from "../../context/shop-context";
                 color: 'white',
             },
         },
-            input: { color: 'white' },
+        
+            input: { color: 'white', transition: '9999s' },
             label: { color: 'white' },
         });
 
@@ -46,7 +48,9 @@ import { ShopContext } from "../../context/shop-context";
     });
 
 const PaymentPage = () => {
+    const location = useLocation();
     const [email, setEmail] = useState();
+    const [charity, setCharity] = useState(location.state ? location.state.charity : "");
     const [deliveryOption, setDeliveryOption] = useState("");
     const [postal, setPostal] = useState(""); 
     const [address, setAddress] = useState();
@@ -57,10 +61,13 @@ const PaymentPage = () => {
 
     const navigate = useNavigate();
    
-
+    useEffect(() => {
+        console.log(charity)
+    }, [charity]);
+    
 
     const handleSubmit = () => {
-        setDescription(`${postal},${address},${country},${deliveryOption}`)
+        setDescription(`${postal},${address},${country},${deliveryOption},${charity}`)
         navigate("/checkout", {state:{description},
         state:{email}
         });

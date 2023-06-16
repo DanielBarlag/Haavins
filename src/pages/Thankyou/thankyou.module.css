@@ -1,0 +1,46 @@
+.contentContainer {
+    height:80vh;
+    width:90vw;
+    display:grid;
+    grid-template-columns:10% 80% 10%;
+    justify-self:center;
+}
+
+.thankTextContainer{
+    display:grid;
+    grid-row:1;
+    grid-column:2;
+    justify-self:center;
+    align-self:center;
+    font-size:10vw;
+    width:80vw;
+    grid-template-rows:50% 50%;
+}
+
+.thankText{
+    justify-self:center;
+    height:40vw;
+    width:56vw;
+    opacity: 0.08;
+}
+
+.youText {
+    height:15vw;
+    width:34vw;
+    justify-self:start;
+    align-self:start;
+    margin-top:-10vw;
+    margin-left:36vw;
+    opacity: 0.08;
+}
+
+.text {
+    font-size:1vw;
+    margin-top:4vw;
+    height:10vw;
+    grid-row:1;
+    grid-column:2;
+    justify-self:center;
+    align-self:center;
+    color:white;
+}
